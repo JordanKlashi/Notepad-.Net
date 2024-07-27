@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|d:\\formation jo\\notepad .net\\notepad.net-lesson-5\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\objects\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\objects\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuStrip.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs",
+              "RelativeDocumentMoniker": "Notepad\\Controls\\MainMenuStrip.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs",
+              "RelativeToolTip": "Notepad\\Controls\\MainMenuStrip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:23:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenuStrip.cs [Design]",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs",
+              "RelativeDocumentMoniker": "Notepad\\Controls\\MainMenuStrip.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs [Design]",
+              "RelativeToolTip": "Notepad\\Controls\\MainMenuStrip.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:23:12.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\Session.cs",
+              "RelativeDocumentMoniker": "Notepad\\Objects\\Session.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\Session.cs",
+              "RelativeToolTip": "Notepad\\Objects\\Session.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:06:00.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
+              "RelativeDocumentMoniker": "Notepad\\MainForm.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
+              "RelativeToolTip": "Notepad\\MainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:01:30.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
+              "RelativeDocumentMoniker": "Notepad\\MainForm.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs [Design]",
+              "RelativeToolTip": "Notepad\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:01:26.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextFile.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\TextFile.cs",
+              "RelativeDocumentMoniker": "Notepad\\Objects\\TextFile.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\TextFile.cs",
+              "RelativeToolTip": "Notepad\\Objects\\TextFile.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:51:10.367Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

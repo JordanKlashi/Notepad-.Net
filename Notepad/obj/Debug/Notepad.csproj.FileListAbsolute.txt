@@ -1,0 +1,20 @@
+E:\Youtube\Visual Studio\Notepad\Notepad\bin\Debug\Notepad.exe.config
+E:\Youtube\Visual Studio\Notepad\Notepad\bin\Debug\Notepad.exe
+E:\Youtube\Visual Studio\Notepad\Notepad\bin\Debug\Notepad.pdb
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.csprojAssemblyReference.cache
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.MainForm.resources
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.exe
+E:\Youtube\Visual Studio\Notepad\Notepad\obj\Debug\Notepad.pdb
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\bin\Debug\Notepad.exe.config
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\bin\Debug\Notepad.exe
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\bin\Debug\Notepad.pdb
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.MainForm.resources
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.exe
+D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.pdb
