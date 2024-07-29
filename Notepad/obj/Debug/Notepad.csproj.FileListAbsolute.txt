@@ -18,3 +18,13 @@ D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.cspr
 D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
 D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.exe
 D:\Formation Jo\Notepad .NET\Notepad.NET-lesson-5\Notepad\obj\Debug\Notepad.pdb
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.MainForm.resources
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.exe
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\obj\Debug\Notepad.pdb
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\bin\Debug\Notepad.exe
+C:\Users\jorda\Desktop\gofullstack\Notepad-.Net\Notepad\bin\Debug\Notepad.pdb

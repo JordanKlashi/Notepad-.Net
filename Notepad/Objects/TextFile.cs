@@ -4,11 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace Notepad.Objects
 {
-    internal class TextFile
+    public class TextFile
     {
+        XmlAttribute(AttributeName = "ActiveIndex")
         /// <summary>
         /// Chemin d'accès et nom du fichier 
         /// </summary>
@@ -32,9 +34,12 @@ namespace Notepad.Objects
         /// <summary>
         /// Contenu du fichier.
         /// </summary>
-        public string Content { get; set; }
+        public string Content { get; set; } = string.Empty;
 
-        public TextFile() { }
+        public TextFile()
+        { 
+        
+        }
 
         public TextFile(string fileName)
         {

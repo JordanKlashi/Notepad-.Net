@@ -40,24 +40,30 @@ namespace Notepad.Controls
 
             newFile.Click += (s, e) =>
             {
-                var tabControl = _form.MainTabControl;
-                var tabPagesCount = tabControl.TabPages.Count;
+                if (_form != null && _form.MainTabControl != null && _form.Session != null)
+                {
+                    var tabControl = _form.MainTabControl;
+                    var tabPagesCount = tabControl.TabPages.Count;
 
-                var fileName = $"Sans titre {tabPagesCount + 1}";
-                var file = new TextFile(fileName);
-                var rtb = new CustomRichTextBox();
+                    var fileName = $"Sans titre {tabPagesCount + 1}";
+                    var file = new TextFile(fileName);
+                    var rtb = new CustomRichTextBox();
 
-                tabControl.TabPages.Add(file.SafeFileName);
+                    tabControl.TabPages.Add(file.SafeFileName);
 
-                var newTabPage = tabControl.TabPages[tabPagesCount];
+                    var newTabPage = tabControl.TabPages[tabPagesCount];
 
-                newTabPage.Controls.Add(rtb);
-                tabControl.SelectedTab = newTabPage;
+                    newTabPage.Controls.Add(rtb);
+                    tabControl.SelectedTab = newTabPage;
 
-                _form.Session.TextFiles.Add(file);
-                _form.CurrentFile = file;
-                _form.CurrentRtb = rtb;
-                
+                    _form.Session.TextFiles.Add(file);
+                    _form.CurrentFile = file;
+                    _form.CurrentRtb = rtb;
+                }
+                else
+                {
+                    MessageBox.Show("Erreur : _form ou ses propriétés sont nulles.");
+                }
             };
 
             fileDropDownMenu.DropDownItems.AddRange(new ToolStripItem[] { newFile, open, save, saveAs, quit });
