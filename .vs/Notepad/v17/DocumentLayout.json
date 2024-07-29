@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\",
+  "WorkspaceRootPath": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|c:\\users\\jorda\\desktop\\gofullstack\\notepad-.net\\notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|c:\\users\\jorda\\desktop\\gofullstack\\notepad-.net\\notepad\\objects\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|d:\\formation jo\\notepad .net\\notepad.net-lesson-5\\notepad\\objects\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\objects\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|c:\\users\\jorda\\desktop\\gofullstack\\notepad-.net\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|d:\\formation jo\\notepad .net\\notepad.net-lesson-5\\notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\objects\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\controls\\mainmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13BACAE4-3920-4E3F-8D23-E0C1AC5CC752}|Notepad\\Notepad.csproj|solutionrelative:notepad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,62 +39,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\Session.cs",
+              "RelativeDocumentMoniker": "Notepad\\Objects\\Session.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\Session.cs",
+              "RelativeToolTip": "Notepad\\Objects\\Session.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:06:47.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TextFile.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Objects\\TextFile.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\TextFile.cs",
               "RelativeDocumentMoniker": "Notepad\\Objects\\TextFile.cs",
-              "ToolTip": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Objects\\TextFile.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Objects\\TextFile.cs",
               "RelativeToolTip": "Notepad\\Objects\\TextFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T12:14:40.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Objects\\Session.cs",
-              "RelativeDocumentMoniker": "Notepad\\Objects\\Session.cs",
-              "ToolTip": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Objects\\Session.cs",
-              "RelativeToolTip": "Notepad\\Objects\\Session.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:58:14.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainMenuStrip.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Controls\\MainMenuStrip.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs",
               "RelativeDocumentMoniker": "Notepad\\Controls\\MainMenuStrip.cs",
-              "ToolTip": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\Controls\\MainMenuStrip.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\Controls\\MainMenuStrip.cs",
               "RelativeToolTip": "Notepad\\Controls\\MainMenuStrip.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDMAAAA/AAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAD4v18AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T16:23:15.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\MainForm.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
               "RelativeDocumentMoniker": "Notepad\\MainForm.cs",
-              "ToolTip": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\MainForm.cs",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
               "RelativeToolTip": "Notepad\\MainForm.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAWwD0AAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwEYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T16:01:30.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\MainForm.cs",
+              "DocumentMoniker": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs",
               "RelativeDocumentMoniker": "Notepad\\MainForm.cs",
-              "ToolTip": "C:\\Users\\jorda\\Desktop\\gofullstack\\Notepad-.Net\\Notepad\\MainForm.cs [Design]",
+              "ToolTip": "D:\\Formation Jo\\Notepad .NET\\Notepad.NET-lesson-5\\Notepad\\MainForm.cs [Design]",
               "RelativeToolTip": "Notepad\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T16:01:26.61Z",

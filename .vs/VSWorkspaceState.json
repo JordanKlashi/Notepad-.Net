@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notepad"
+    "\\Notepad",
+    "\\Notepad\\Objects"
   ],
-  "SelectedNode": "\\Notepad\\MainForm.cs",
+  "SelectedNode": "\\Notepad\\Objects\\TextFile.cs",
   "PreviewInSolutionExplorer": false
 }

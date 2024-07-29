@@ -1,7 +1,9 @@
 ﻿using Notepad.Controls;
 using Notepad.Objects;
 using System;
+using System.Linq;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Notepad
 {
@@ -37,7 +39,7 @@ namespace Notepad
             if (Session.TextFiles.Count == 0)
             {
                 var file = new TextFile("Sans titre 1");
-                
+
                 MainTabControl.TabPages.Add(file.SafeFileName);
 
                 var tabPage = MainTabControl.TabPages[0];
@@ -50,12 +52,25 @@ namespace Notepad
                 CurrentFile = file;
                 CurrentRtb = rtb;
             }
-            
+
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Session.Save();
+
+            foreach (var file in Session.TextFiles)
+            {
+                var fileIndex = Session.TextFiles.IndexOf(file);
+                var rtb = MainTabControl.TabPages[fileIndex].Controls.Find("RtbTextFileContents", true).First();
+                //MessageBox.Show(rtb.Text);
+                
+                if (file.FileName.StartsWith("Sans titre"))
+                {
+                    file.Contents = rtb.Text;
+                    Session.BackupFile(file);
+                }
+            }
         }
     }
 }
