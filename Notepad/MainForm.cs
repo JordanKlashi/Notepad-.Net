@@ -1,9 +1,8 @@
 ﻿using Notepad.Controls;
 using Notepad.Objects;
-using System;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 
 namespace Notepad
 {
@@ -13,30 +12,24 @@ namespace Notepad
         public TextFile CurrentFile;
         public TabControl MainTabControl;
         public Session Session;
+
         public MainForm()
         {
             InitializeComponent();
 
-            Session = new Session();
-
             var menuStrip = new MainMenuStrip();
             MainTabControl = new MainTabControl();
-
-
 
             Controls.AddRange(new Control[] { MainTabControl, menuStrip });
 
             InitializeFile();
-
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private async void InitializeFile()
         {
+            Session = await Session.Load();
 
-        }
-        private void InitializeFile()
-        {
-            if (Session.TextFiles.Count == 0)
+            if (Session.Files.Count == 0)
             {
                 var file = new TextFile("Sans titre 1");
 
@@ -47,23 +40,47 @@ namespace Notepad
                 tabPage.Controls.Add(rtb);
                 rtb.Select();
 
-                Session.TextFiles.Add(file);
+                Session.Files.Add(file);
 
                 CurrentFile = file;
                 CurrentRtb = rtb;
             }
+            else
+            {
+                var activeIndex = Session.ActiveIndex;
 
+                foreach (var file in Session.Files)
+                {
+                    if (File.Exists(file.FileName) || File.Exists(file.BackupFileName))
+                    {
+                        var rtb = new CustomRichTextBox();
+                        var tabCount = MainTabControl.TabCount;
+
+                        MainTabControl.TabPages.Add(file.SafeFileName);
+                        MainTabControl.TabPages[tabCount].Controls.Add(rtb);
+
+                        rtb.Text = file.Contents;
+                    }
+                }
+
+                CurrentFile = Session.Files[activeIndex];
+                CurrentRtb = (CustomRichTextBox)MainTabControl.TabPages[activeIndex].Controls.Find("RtbTextFileContents", true).First();
+                CurrentRtb.Select();
+                
+                MainTabControl.SelectedIndex = activeIndex;
+                Text = $"{CurrentFile.FileName} - Notepad.NET";
+            }
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
+            Session.ActiveIndex = MainTabControl.SelectedIndex;
             Session.Save();
 
-            foreach (var file in Session.TextFiles)
+            foreach (var file in Session.Files)
             {
-                var fileIndex = Session.TextFiles.IndexOf(file);
+                var fileIndex = Session.Files.IndexOf(file);
                 var rtb = MainTabControl.TabPages[fileIndex].Controls.Find("RtbTextFileContents", true).First();
-                //MessageBox.Show(rtb.Text);
                 
                 if (file.FileName.StartsWith("Sans titre"))
                 {

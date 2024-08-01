@@ -43,44 +43,41 @@ namespace Notepad.Controls
 
             newFile.Click += (s, e) =>
             {
-                if (_form != null && _form.MainTabControl != null && _form.Session != null)
-                {
-                    var tabControl = _form.MainTabControl;
-                    var tabCount = tabControl.TabCount;
+                var tabControl = _form.MainTabControl;
+                var tabCount = tabControl.TabCount;
 
-                    var fileName = $"Sans titre {tabCount + 1}";
-                    var file = new TextFile(fileName);
-                    var rtb = new CustomRichTextBox();
+                var fileName = $"Sans titre {tabCount + 1}";
+                var file = new TextFile(fileName);
+                var rtb = new CustomRichTextBox();
 
-                    tabControl.TabPages.Add(file.SafeFileName);
+                tabControl.TabPages.Add(file.SafeFileName);
 
-                    var newTabPage = tabControl.TabPages[tabCount];
+                var newTabPage = tabControl.TabPages[tabCount];
 
-                    newTabPage.Controls.Add(rtb);
-                    tabControl.SelectedTab = newTabPage;
+                newTabPage.Controls.Add(rtb);
 
-                    _form.Session.TextFiles.Add(file);
-                    _form.CurrentFile = file;
-                    _form.CurrentRtb = rtb;
-                }
-                else
-                {
-                    MessageBox.Show("Erreur : _form ou ses propriétés sont nulles.");
-                }
+                _form.Session.Files.Add(file);
+
+                tabControl.SelectedTab = newTabPage;
+
+                _form.CurrentFile = file;
+                _form.CurrentRtb = rtb;
             };
 
             open.Click += async (s, e) =>
             {
-                if (_openFileDialog.ShowDialog() == DialogResult.OK)
+                if(_openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     var tabControl = _form.MainTabControl;
                     var tabCount = tabControl.TabCount;
 
                     var file = new TextFile(_openFileDialog.FileName);
+
                     var rtb = new CustomRichTextBox();
+
                     _form.Text = $"{file.FileName} - Notepad.NET";
 
-                    using(StreamReader reader = new StreamReader(file.FileName))
+                    using (StreamReader reader = new StreamReader(file.FileName))
                     {
                         file.Contents = await reader.ReadToEndAsync();
                     }
@@ -90,9 +87,9 @@ namespace Notepad.Controls
                     tabControl.TabPages.Add(file.SafeFileName);
                     tabControl.TabPages[tabCount].Controls.Add(rtb);
 
-                    _form.Session.TextFiles.Add(file);
-                    _form.CurrentFile = file;
+                    _form.Session.Files.Add(file);
                     _form.CurrentRtb = rtb;
+                    _form.CurrentFile = file;
                     tabControl.SelectedTab = tabControl.TabPages[tabCount];
                 }
             };
